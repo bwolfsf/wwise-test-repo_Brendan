@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{64E80A4B-0721-4118-9266-4B3400D9277C}" SchemaVersion="80">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{64E80A4B-0721-4118-9266-4B3400D9277C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="OneShot" ID="{79BC87C2-6F15-4D18-A5C7-3BAC6A98A53C}">
+					<ChildrenList>
+						<Action Name="" ID="{537A23BC-EB49-43A6-80BC-4A7250C4E36A}" ShortID="775378096">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OneShot" ID="{2367CBDA-1CDC-4E18-A2B0-F9D9817B06D8}" WorkUnitID="{4A89A3DC-1E04-43D3-9A5E-8AC87ABAF0CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambience" ID="{633E9B26-156A-459A-BE97-AF528ED6BFB2}">
+					<ChildrenList>
+						<Action Name="" ID="{1377F3E2-A7F2-4CD6-A1DE-3B767FFA61AD}" ShortID="550513929">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience2D" ID="{4D28935E-F88F-47F7-A7EB-26E56AADEF24}" WorkUnitID="{4A89A3DC-1E04-43D3-9A5E-8AC87ABAF0CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

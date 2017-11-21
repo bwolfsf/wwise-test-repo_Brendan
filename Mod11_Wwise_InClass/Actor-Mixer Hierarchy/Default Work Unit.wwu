@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4A89A3DC-1E04-43D3-9A5E-8AC87ABAF0CD}" SchemaVersion="80">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{4A89A3DC-1E04-43D3-9A5E-8AC87ABAF0CD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="OneShot" ID="{2367CBDA-1CDC-4E18-A2B0-F9D9817B06D8}" ShortID="147850533">
+					<PropertyList>
+						<Property Name="InitialDelay" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A938BA2C-6DC2-43BE-B79A-968C8E7741E7}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="341"/>
+											<Property Name="Min" Type="Real64" Value="-701"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{141DCE05-DEF0-4799-8D0A-F1B9B87C0DCA}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="657"/>
+											<Property Name="Min" Type="Real64" Value="-531"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8E1E9308-1CDB-43E0-B518-3094933EE09B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADCC698C-1CBA-4A3D-B991-006A4C5EBAFE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Start" ID="{730619AA-580D-4080-B487-5F434AE05C84}" ShortID="757162435">
+							<Language>SFX</Language>
+							<AudioFile>Start.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Start" ID="{730619AA-580D-4080-B487-5F434AE05C84}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Ambience2D" ID="{4D28935E-F88F-47F7-A7EB-26E56AADEF24}" ShortID="184382314">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8E1E9308-1CDB-43E0-B518-3094933EE09B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADCC698C-1CBA-4A3D-B991-006A4C5EBAFE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Dolphin" ID="{32C65E09-8E63-4E82-96DB-4599422D20D8}" ShortID="98955616">
+							<Language>SFX</Language>
+							<AudioFile>Dolphin.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Dolphin" ID="{32C65E09-8E63-4E82-96DB-4599422D20D8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
